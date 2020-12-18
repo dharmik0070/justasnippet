@@ -1,0 +1,13 @@
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    height: 100vh;
+    overflow: auto;
+}
+
+.modal-open[style] {
+    padding-right: 0px !important;
+}
+

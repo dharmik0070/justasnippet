@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/fadinganimation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="logo.svg" type="image/svg+xml" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Just a Snippet</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="\">
+                Just a Snippet
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    class="bi bi-chat-square-quote" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                    <path fill-rule="evenodd"
+                        d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+                </svg></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- work left -->
+                            <li><a class="dropdown-item" href="/motivation.html">Motivation</a></li>
+                            <li><a class="dropdown-item" href="/inspiratation.html">Inspiratation</a></li>
+                            <li><a class="dropdown-item" href="/relationship.html">Relationship</a></li>
+                            <li><a class="dropdown-item disabled" href="/friendship.html">Friendship</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/sendsnippets.html">Send your Snippets</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contact.html">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> -->
+                </ul>
+                <!-- <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+
+                <button type="button" class="btn btn-danger" onclick="myFunction()" id="Copy_btn">Copy Page
+                    Link</button>
+            </div>
+        </div>
+
+    </nav>
+    <div class="alert alert-warning alert-dismissible fade show my-0" role="alert">
+        <strong>Please share</strong> and stay tuned to the page.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/1_.jpg" class="img-fluid d-block w-100"
+                    alt="Poor Connection. Please Refresh the page.">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to the world of snippets</h2>
+                    <p class="my-1">A place where the world's chaos is summarized in text</p>
+                    <a href="#first"><button class="btn btn-primary">Explore</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/2_.jpg" class="img-fluid d-block w-100"
+                    alt="Poor Connection. Please Refresh the page.">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to the world of snippets</h2>
+                    <p>A place where the world's chaos is summarized in text</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/3_.jpg" class="img-fluid d-block w-100"
+                    alt="Poor Connection. Please Refresh the page.">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h2>Welcome to the world of snippets</h2>
+                    <p>A place where the world's chaos is summarized in text</p> -->
+                    <a href="#first"><button class="btn btn-primary">Explore</button></a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- w3-animate-left -->
+    <!-- style="animation-duration: 4s;" -->
+    <a href="\motivation.html" class="page_redirection" name="motivation" id="motivation">
+        <div class="container my-4" id="first">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                <div class="col-md-5 order-md-1 animate__animated animate__fadeInLeft">
+                    <img src="Images/Index/Motivation400x300.jpg" class="img-fluid d-block w-100 imgradiusright"
+                        alt="Poor Connection. Please Refresh the page.">
+                </div>
+                <div class="col-md-7 order-md-2 mt-2 mt-sm-0">
+                    <span class="badge rounded-pill bg-danger w3-animate-fading">New</span>
+                    <h2 class="featurette-heading">Motivation <span class="text-muted"> - An internal desire</span></h2>
+                    <p class="lead">It is a reason for actions, willingness, and goals.
+                        Motivation is derived from the word motive, or a need that requires satisfaction.
+                        These needs, wants or desires may be
+                        acquired through influence of culture, society, lifestyle, or may be generally innate.</p>
+                </div>
+
+            </div>
+        </div>
+    </a>
+    <a href="\inspiratation.html" class="page_redirection" name="inspiration" id="inspiration">
+        <div class="container my-4" id="second">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                <div class="col-md-5 order-md-2 animate__animated animate__fadeInRight">
+                    <img src="Images/Index/Inspiration400x300.jpg" class="img-fluid d-block w-100 imgradiusleft"
+                        alt="Poor Connection. Please Refresh the page.">
+                </div>
+                <div class="col-md-7 order-md-1 mt-2 mt-sm-0">
+                    <h2 class="featurette-heading">Inspiration <span class="text-muted"> - A powerful force</span></h2>
+                    <p class="lead">It makes someone want to do something or that gives someone an idea
+                        about what to do or how to act, create, or feel an emotion</p>
+                </div>
+
+            </div>
+        </div>
+    </a>
+    <a href="\relationship.html" class="page_redirection" name="relationship" id="relationship">
+        <div class="container my-4" id="third">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                <div class="col-md-5 order-md-1 animate__animated animate__fadeInLeft">
+                    <img src="Images/Index/Relationship400x300.jpg" class="img-fluid d-block w-100 imgradiusright"
+                        alt="Poor Connection. Please Refresh the page.">
+                </div>
+                <div class="col-md-7 order-md-2 mt-2 mt-sm-0">
+                    <h2 class="featurette-heading">Relationship <span class="text-muted"> - A reason to live</span></h2>
+                    <p class="lead">It is the way in which two or more people or things are connected,
+                        or the state of being connected
+                        ,the most meaningful aspects of life, and are a source of deep fulfillment.</p>
+                </div>
+
+            </div>
+        </div>
+    </a>
+    <a href="#second" class="page_redirection" name="friendship" id="friendship">
+        <div class="container my-4">
+            <div class="row featurette d-flex justify-content-center align-items-center">
+                <div class="col-md-5 order-md-2 animate__animated animate__fadeInRight">
+                    <img src="Images/Index/Friendship400x300.jpg" class="img-fluid d-block w-100 imgradiusleft"
+                        alt="Poor Connection. Please Refresh the page.">
+                </div>
+                <div class="col-md-7 order-md-1 mt-2 mt-sm-0">
+                    <span class="badge rounded-pill bg-danger w3-animate-fading">Coming Soon</span>
+                    <h2 class="featurette-heading">Friendship <span class="text-muted"> - an interpersonal bond</span>
+                        
+                    </h2>
+                    <p class="lead">It is a relationship of mutual affection between people. Being able to have trust
+                        and confidence in your friend is one of the most important
+                        requirements of a strong relationship because true friendship means you are able to count on one
+                        another.</p>
+                </div>
+
+            </div>
+        </div>
+    </a>
+
+    <footer class="container-fluid fs-6">
+        <p class="float-end"><a href="#">
+                <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                </svg>
+            </a></p>
+        <p>© 2020-2021 · Developer : <a href="/About.html#dharmikshah" class="page_redirection">Dharmik Shah</a></p>
+        <!-- <p>© 2020-2021 · <a href="#">Privacy</a> · <a href="#">Terms</a></p> -->
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="js/copy.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
