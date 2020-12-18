@@ -10,13 +10,13 @@ function loadImage() {
                 alert("File too Big, please select a file less than 2mb");
                 var oldInput = document.getElementById("fileToUpload");
                 var newInput = document.createElement("input");
-                newInput.type = "file"; 
-                newInput.id = oldInput.id; 
-                newInput.name = oldInput.name; 
-                newInput.className = oldInput.className; 
-                newInput.style.cssText = oldInput.style.cssText; 
-                newInput.onchange = oldInput.onchange;            
-                oldInput.parentNode.replaceChild(newInput, oldInput); 
+                newInput.type = "file";
+                newInput.id = oldInput.id;
+                newInput.name = oldInput.name;
+                newInput.className = oldInput.className;
+                newInput.style.cssText = oldInput.style.cssText;
+                newInput.onchange = oldInput.onchange;
+                oldInput.parentNode.replaceChild(newInput, oldInput);
             }
         }
     }
