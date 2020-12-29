@@ -1,4 +1,4 @@
-#myBtn {
+#topBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -12,7 +12,7 @@
     cursor: pointer;
 }
 
-#myBtn:hover {
+#topBtn:hover {
     background-color: transparent;
     color: rgb(12, 86, 197);
 }
