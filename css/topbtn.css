@@ -8,11 +8,11 @@
     border: none;
     outline: none;
     background-color: transparent;
-    color: #0d6efd;
+    color: #05151e;
     cursor: pointer;
 }
 
 #topBtn:hover {
     background-color: transparent;
-    color: rgb(12, 86, 197);
+    color: #010405;
 }
