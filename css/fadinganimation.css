@@ -1,31 +1,39 @@
 .animate__fadeInLeft {
     --animate-duration: 4s;
 }
+
 .animate__fadeInRight {
     --animate-duration: 4s;
 }
-.animate__slideInLeft{
+
+.animate__slideInLeft {
     --animate-duration: 3s;
 }
-.animate__slideInRight{
+
+.animate__slideInRight {
     --animate-duration: 3s;
 }
-.animate__slideInUp{
+
+.animate__slideInUp {
     --animate-duration: 3s;
 }
-.page_redirection{
-    text-decoration:none;
-    color: black;
+
+.page_redirection {
+    text-decoration: none;
+    color: rgb(201, 100, 100);
 }
+
 .grad {
     background: linear-gradient(to bottom, #bdc3c7 0%, #2c3e50 100%);
     transition: 0.2s;
     transition-timing-function: ease;
 }
+
 .grad:hover {
     border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
 }
+
 .imgradiusright {
     transition: 0.3s;
     transition-timing-function: ease;
@@ -34,6 +42,7 @@
 .imgradiusright:hover {
     border-bottom-right-radius: 10%;
 }
+
 .imgradiusleft {
     transition: 0.3s;
     transition-timing-function: ease;
