@@ -35,8 +35,7 @@ window.addEventListener("DOMContentLoaded", function() {
             y = x / 2;
         }, 500);
         status.innerHTML = "Thanks for Sharing!!!";
-
-
+        setTimeout(() => {}, 3000);
     }
     // handle the form submission event
     form.addEventListener("submit", function(ev) {
