@@ -42,10 +42,7 @@ window.addEventListener("DOMContentLoaded", function() {
         window.scrollTo(0, 0);
         var data = new FormData(form);
         ajax(form.method, form.action, data, success, error);
-        setTimeout(function() {
-            x = x * 3 + 2;
-            y = x / 2;
-        }, 3500);
+
     });
 });
 
@@ -59,6 +56,10 @@ function ajax(method, url, data, success, error) {
         if (xhr.readyState !== XMLHttpRequest.DONE) return;
         if (xhr.status === 200) {
             success(xhr.response, xhr.responseType);
+            setTimeout(function() {
+                x = x * 3 + 2;
+                y = x / 2;
+            }, 5000);
         } else {
             error(xhr.status, xhr.response, xhr.responseType);
         }
