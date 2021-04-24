@@ -30,11 +30,11 @@ window.addEventListener("DOMContentLoaded", function() {
         setTimeout(function() {
             x = x * 3 + 2;
             y = x / 2;
-        }, 3500);
+        }, 35000);
         setTimeout(function() {
             x = x * 3 + 2;
             y = x / 2;
-        }, 3500);
+        }, 35000);
     }
     // handle the form submission event
     form.addEventListener("submit", function(ev) {
