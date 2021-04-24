@@ -21,6 +21,7 @@
 
 <b>Developer: [Dharmik Shah](https://dharmik0070.github.io/justasnippet/About.html#dharmikshah)</b> 
 <br>
+
 E-mail: 
 - [dharmik0070@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=dharmik0070@gmail.com)
 - [justasnippet.20@gmail.com](https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=justasnippet.20@gmail.com)
