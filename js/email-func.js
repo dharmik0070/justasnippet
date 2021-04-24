@@ -24,6 +24,7 @@ window.addEventListener("DOMContentLoaded", function() {
         status.classList.add("success");
         status.setAttribute("class", "alert alert-success alert-dismissable fade show");
         status.style.display = "block";
+        status.innerHTML = "Thanks for Sharing!!!";
         var x = 1;
         var y = null;
         setTimeout(function() {
@@ -34,8 +35,6 @@ window.addEventListener("DOMContentLoaded", function() {
             x = x * 3 + 2;
             y = x / 2;
         }, 500);
-        status.innerHTML = "Thanks for Sharing!!!";
-        setTimeout(() => {}, 3000);
     }
     // handle the form submission event
     form.addEventListener("submit", function(ev) {
