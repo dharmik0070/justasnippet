@@ -1,8 +1,8 @@
 <p align="center">
   <br>
-  <a href="https://raw.githubusercontent.com/dharmik0070/justasnippet/master/Images/1_.jpg">
-  <img src="https://raw.githubusercontent.com/dharmik0070/justasnippet/master/Images/1_.jpg" alt="Banner" width="100%" height="100%">
-  </a>
+
+  <img src="https://dharmik0070.github.io/justasnippet/Images/1_.jpg" alt="Banner" width="100%" height="100%">
+  
   <p align="center">
     <i>A place where world's chaos is summarized in text..</i>
     <br>
